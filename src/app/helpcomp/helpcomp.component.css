@@ -1,0 +1,38 @@
+/* settings.component.css */
+.heading{
+    color: white;
+    margin-bottom: 20px;
+}
+mat-card {
+    width: 100%;
+    max-width: 800px; /* Adjust width as needed */
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  mat-card-header {
+    background-color:gray;
+  }
+  
+  mat-card-title {
+    font-size: 24px;
+  }
+  
+  mat-card-content {
+    padding-top: 10px;
+  }
+  
+  mat-expansion-panel {
+    margin-bottom: 10px;
+  }
+  
+  mat-panel-title {
+    font-size: 18px;
+  }
+  
+  mat-expansion-panel-content {
+    padding: 10px;
+    font-size: 16px;
+  }
+  

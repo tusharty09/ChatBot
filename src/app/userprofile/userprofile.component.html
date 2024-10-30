@@ -1,0 +1,46 @@
+ <div class="profile-container mat-elevation-z3" *ngIf="userProfile">
+    <div class="profile-header">
+      <div class="profile-info">
+        <h2 class="profile-name">{{ userProfile.profile.name }}</h2>
+        <p class="profile-bio">{{ userProfile.profile.bio }}</p>
+        <p style="color: black;">
+          Hey I am {{ userProfile.profile.name }}, {{ userProfile.profile.jobTitle }} at {{ userProfile.profile.company }}
+        </p>
+      </div>
+    </div>
+    <mat-divider class="divider"></mat-divider>
+    <div class="profile-details">
+      <mat-list class="mat-list-yay">
+        <div>
+        <mat-list-item>
+          <mat-icon matListItemIcon class="matlisticon">email</mat-icon>
+          <div matLine>
+            <h4 class="mat-headline">Email</h4>
+            <p class="mat-body-1">{{ userProfile.contact.email }}</p>
+          </div>
+        </mat-list-item>
+      </div>
+      <br>
+        <mat-list-item>
+          <mat-icon matListItemIcon class="matlisticon1">phone</mat-icon>
+          <div matLine>
+            <h4 class="mat-headline">Phone</h4>
+            <p class="mat-body-1">{{ userProfile.contact.phone }}</p>
+          </div>
+        </mat-list-item>
+      <br> 
+        <mat-list-item>
+          <mat-icon matListItemIcon class="matlisticon2">location_on</mat-icon>
+          <div matLine>
+            <h4 class="mat-headline">Location</h4>
+            <p class="mat-body-1">{{ userProfile.contact.location }}</p>
+          </div>
+        </mat-list-item>
+      </mat-list>
+    </div>
+    <div class="profile-actions">
+      <button (click)="navigateToEditProfile()" mat-raised-button color="primary" class="buttonBtn">Edit Profile</button>
+      <button (click)="navigateToSettings()" mat-raised-button class="buttonBtn">Help</button>
+    </div>
+  </div>
+  

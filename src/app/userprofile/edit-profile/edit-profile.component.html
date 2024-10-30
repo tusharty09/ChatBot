@@ -1,0 +1,22 @@
+<div class="edit-profile-container">
+    <h2 class="heading">Edit Profile</h2>
+    <form (ngSubmit)="onSubmit()">
+      <mat-form-field>
+        <input matInput placeholder="Name" [(ngModel)]="name" name="name" required>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Email" [(ngModel)]="email" name="email" required>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Location" [(ngModel)]="location" name="location">
+      </mat-form-field>
+      <mat-form-field>
+        <textarea matInput placeholder="Bio" [(ngModel)]="bio" name="bio"></textarea>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Phone Number" [(ngModel)]="phone" name="phone">
+      </mat-form-field>
+      <button mat-raised-button color="primary" type="submit">Edit</button>
+    </form>
+  </div>
+  

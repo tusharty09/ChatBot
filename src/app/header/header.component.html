@@ -1,0 +1,21 @@
+  <mat-toolbar color="primary" >
+    <button mat-icon-button aria-label="Menu icon" (click)="toggleSidenav()">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <h1>ChatBot UI</h1>
+  </mat-toolbar>
+  <mat-sidenav-container class="sidenav-container">
+    <mat-sidenav #sidenav mode="side">
+      <mat-nav-list>
+        <a mat-list-item routerLink="/userprofile">User Profile</a>
+        <a mat-list-item routerLink="/chatbot">Chatbot</a>
+        <a mat-list-item routerLink="/helpComp">Help</a>
+        <a mat-list-item >Settings</a>
+      </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content class="sidenavbar">
+      <router-outlet></router-outlet>
+
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+  

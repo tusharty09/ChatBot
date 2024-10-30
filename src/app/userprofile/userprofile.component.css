@@ -1,0 +1,128 @@
+.profile-container {
+    max-width: 600px;
+    height: 550px;
+    margin: 90px auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 3px 3px -2px rgba(0, 0, 0, 0.2), 
+                0px 3px 4px 0px rgba(0, 0, 0, 0.14), 
+                0px 1px 8px 0px rgba(0, 0, 0, 0.12);
+  }
+  
+  .profile-header {
+    display: flex;
+    align-items: center;
+  }
+  
+.divider{
+  margin-bottom: 200px;
+}
+  
+  .profile-info {
+    flex: 1;
+  }
+  
+  .profile-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+  }
+  
+  .profile-bio {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .profile-details {
+    margin-top: 15px;
+  }
+  
+  .mat-list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+  }
+  
+  /* .mat-list-item mat-icon {
+    margin-right: 10px;
+    color: #6200ee; 
+  }
+   */
+  .mat-list-item h4 {
+    margin: 0;
+    font-size: 14px;
+    color: #333; 
+  }
+  
+  .mat-list-item p {
+    margin: 0;
+    color: #666; 
+  }
+  
+  .profile-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .profile-actions button {
+    min-width: 120px;
+  }
+  
+  button[mat-raised-button] {
+    background-color: #6200ee; 
+    color: #fff; 
+  }
+  
+  button[mat-raised-button]:hover {
+    background-color: #3700b3;
+  }
+  .mat-headline{
+    font-family: initial !important;
+    font-size: initial !important;
+    margin-bottom: 0px !important;
+    color: black;
+  }
+  .mat-body-1{
+    color: black;
+    padding-bottom: 11px;
+    margin-bottom: 0px;
+    font-family: initial !important;
+    font-size: initial !important;
+  }
+  /* .icon{
+    margin-bottom: 20px;
+  } */
+
+  .mat-list-yay {
+    top: 340px;
+
+    display: flex !important;
+    bottom: 6px !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    position: absolute !important;
+  }
+.buttonBtn{
+  padding-top: 0px;
+    border-top-width: 0px;
+    margin-top: 0px;
+    display: flex;
+    position: relative;
+    top: 22px;
+}
+.matlisticon1{
+  margin-bottom: 25px;
+}
+.matlisticon{
+  margin-bottom: 33px;
+}
+.matlisticon2{
+  margin-bottom: 30px;
+}

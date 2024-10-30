@@ -1,0 +1,13 @@
+.mat-toolbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mat-toolbar h1 {
+  margin: 0;
+  
+}
+.sidenavbar{
+  background-color: white;
+}
